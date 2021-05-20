@@ -57,7 +57,7 @@ async function execute() {
                             msg += centerMsg + "\n";
                         }
                     });
-                    msg += "\n- Roopal (+91-8390903121, WhatsApp only)";
+                    msg += "\n- Mukund (+91-9545860660, WhatsApp only)";
                     console.log("Should send message:" + shouldSendSms + ", Pin: " + pinCode + ", SNS topic:" + topic + ", msg: " + msg);
                     if (shouldSendSms) {
                         sns.publish({
